@@ -4,9 +4,13 @@ Import fonts
 @import url('https://fonts.googleapis.com/css?family=Patua One');
 @import url('https://fonts.googleapis.com/css?family=Quintessential');
 
+body {
+    min-width: 1000px;
+}
+
 #headerDiv {
     background-image: url("../img/snowbird_dark.jpg");
-    height: 750px;
+    height: 100vh;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,3 +28,22 @@ Import fonts
     color: white;
 }
 
+.headTxtHvr {
+    border-radius: 50px;
+    -webkit-transition: font-size 0.25s, background-color 0.25s;
+    -moz-transition: font-size 0.25s, background-color 0.25s;
+    -ms-transition: font-size 0.25s, background-color 0.25s;
+    -o-transition: font-size 0.25s, background-color 0.25s;
+    transition: font-size 0.25s, background-color 0.25s;
+}
+
+.headTxtHvr:hover {
+    font-size: 30px;
+    background-color: rgba(255, 242, 28, 0.75);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.webDevImg {
+    max-width: 100%;
+}

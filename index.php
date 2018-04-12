@@ -29,6 +29,9 @@
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
+<!-- Appear js -->
+<script src="https://rawgit.com/morr/jquery.appear/master/jquery.appear.js"></script>
+
 <!-- Font Awesome js -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
         integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
@@ -36,6 +39,10 @@
 
 <!-- AOS js -->
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+<!-- Highcharts js -->
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-more.js"></script>
 
 <!-- Bootstrap js -->
 <script src="js/bootstrap.min.js"></script>
