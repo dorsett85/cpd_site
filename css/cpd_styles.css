@@ -1,0 +1,26 @@
+/*
+Import fonts
+*/
+@import url('https://fonts.googleapis.com/css?family=Patua One');
+@import url('https://fonts.googleapis.com/css?family=Quintessential');
+
+#headerDiv {
+    background-image: url("../img/snowbird_dark.jpg");
+    height: 750px;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#headerCpd {
+    font-size: 60px;
+    font-family: 'Quintessential';
+    color: white;
+}
+
+#headerText {
+    font-size: 25px;
+    font-family: 'Patua One';
+    color: white;
+}
+
