@@ -21,18 +21,43 @@
 
 
 <div id="visDiv" class="col-md-8 offset-md-2">
-    <div data-aos="fade-right">
+    <div class="p-3 text-center" data-aos="fade-right">
         <h1>Visualization</h1>
+    </div>
+    <div class="p-3 text-center" data-aos="fade-in">
+        Extensive application providing insight to stakeholders through technical visualizations
     </div>
 
     <div id="container1" style="min-width: 300px; height: 300px; margin: 1em"></div>
     <div id="container2" style="min-width: 300px; height: 300px; margin: 1em"></div>
 
-    Extensive experience providing insight to stakeholders through technical visualizations.
-    <ul>
-        <li>Advanced familiarity with R's premier ggplot2 library</li>
-        <li>Applied experience with highcharts.js (shown above), plotly.js, and Python's Matplotlib</li>
-    </ul>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="w-100 p-3">
+                Visualization output/reporting
+            </div>
+            <div class="w-100">
+                <ul>
+                    <li class="p-2">Web application embedding</li>
+                    <li class="p-2">R Markdown, ReportLab (Python)</li>
+                    <li class="p-2">PDF, image file, MS Word, R Shiny</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="w-100 p-3">Plotting Libraries</div>
+            <div class="w-100">
+                <ul>
+                    <li class="p-2">R's ggplot2</li>
+                    <li class="p-2">highcharts.js (shown above)</li>
+                    <li class="p-2">plotly.js</li>
+                    <li class="p-2">Python's Matplotlib</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
 </div>
 
 
@@ -40,34 +65,37 @@
 
 
 <div id="webDevDiv" class="col-md-8 offset-md-2">
+    <div class="p-3 text-center" data-aos="fade-right">
+        <h1>Web Application</h1>
+    </div>
+    <div class="p-3 text-center" data-aos="fade-in">
+        Developing models and analyzing data within a standalone script is one thing, but bringing them into production
+        on the web to share with a broad audience holds the greatest value.
+    </div>
     <div class="row">
-        <div class="col-md-4">
-            <a class="webDevAnchor" href="http://stocktracker.cphillipsdorsett.com" target="_blank">
-                <span class="contentText">Stock Tracker</span><br>
+        <div class="col-md-4 text-center">
+            <a class="webDevAnchor text-center" href="http://stocktracker.cphillipsdorsett.com" target="_blank">
+                <span class="d-block pb-1 contentText">Stock Tracker</span>
                 <img src="img/stocktracker.png" class="webDevImg" alt="stock-tracker">
             </a>
         </div>
-        <div class="col-md-4">
-            <a class="webDevAnchor" href="http://stocktracker.cphillipsdorsett.com" target="_blank">
-                <span class="contentText">Stock Tracker</span><br>
+        <div class="col-md-4 text-center">
+            <a class="webDevAnchor" href="http://www.laughingdogsvt.com" target="_blank">
+                <span class="d-block pb-1 contentText">Laughing Dogs</span>
                 <img src="img/laughingdogs.png" class="webDevImg" alt="laughing-dogs">
             </a>
         </div>
-        <div class="col-md-4">
-            <a class="webDevAnchor" href="http://stocktracker.cphillipsdorsett.com" target="_blank">
-                <span class="contentText">Stock Tracker</span><br>
+        <div class="col-md-4 text-center">
+            <a class="webDevAnchor" href="http://pymodel.cphillipsdorsett.com" target="_blank">
+                <span class="d-block pb-1 contentText">QuickModel</span>
                 <img src="img/quickmodel.png" class="webDevImg" alt="quickmodel">
             </a>
         </div>
     </div>
-
-    My current focus and area of greatest interest. Developing models and analyzing data within a standalone script
-    is one thing, but bringing them to life interactively on the web to share with a broad audience holds the greatest
-    value.
     <ul>
-        <li>Application frameworks built with Laravel (see "StockTracker" above) and Django ("QuickModel")</li>
-        <li>Experience with production environments and ORM interaction with databases</li>
-        <li>Proficient with JQuery and Bootstrap for front-end development</li>
+        <li>Applications built with Laravel and Django</li>
+        <li>Full stack production setup with database ORM interaction</li>
+        <li>JQuery and Bootstrap front-end development</li>
     </ul>
 </div>
 
@@ -75,7 +103,12 @@
 <hr>
 
 
-<div id="dataDiv">
-
+<div id="dataDiv" class="col-md-8 offset-md-2">
+    <div class="p-3 text-center" data-aos="fade-right">
+        <h1>Data Programming</h1>
+    </div>
+    <div class="p-3 text-center" data-aos="fade-in">
+        Data programming paragraph
+    </div>
 </div>
 
