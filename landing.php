@@ -20,15 +20,15 @@
 </header>
 
 
-<div id="visDiv" class="col-md-8 offset-md-2">
-    <div class="p-3 text-center" data-aos="fade-right">
+<div id="visDiv">
+    <div class="pt-5 text-center" data-aos="fade-right">
         <h1>Visualization</h1>
     </div>
     <div class="p-3 text-center" data-aos="fade-in">
         Extensive application providing insight to stakeholders through technical visualizations
     </div>
 
-    <div id="container1" style="min-width: 300px; height: 300px; margin: 1em"></div>
+    <div id="container1" class="mx-auto" style="max-width: 800px; min-width: 300px; height: 300px; margin: 1em"></div>
     <div id="container2" style="min-width: 300px; height: 300px; margin: 1em"></div>
 
     <div class="row">
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="w-100 p-3">Plotting Libraries</div>
+            <div class="w-100 p-3">Plotting libraries</div>
             <div class="w-100">
                 <ul>
                     <li class="p-2">R's ggplot2</li>
@@ -69,8 +69,8 @@
         <h1>Web Application</h1>
     </div>
     <div class="p-3 text-center" data-aos="fade-in">
-        Developing models and analyzing data within a standalone script is one thing, but bringing them into production
-        on the web to share with a broad audience holds the greatest value.
+        Developing models and analyzing data within a standalone script is one thing, but sharing that work with a
+        broad audience holds the greatest value.
     </div>
     <div class="row">
         <div class="col-md-4 text-center">
