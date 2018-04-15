@@ -1,4 +1,4 @@
-<?php # require('FILE.php'); ?>
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +25,7 @@
 
 
 <!-- JQuery js -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 
@@ -41,13 +41,13 @@
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 <!-- Highcharts js -->
-<script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="js/sand-signika.js"></script>
 
 <!-- Bootstrap js -->
 <script src="js/bootstrap.min.js"></script>
 
-<!-- Other script js -->
+<!-- Other js -->
 <script src="js/cpd_js.js"></script>
 
 </body>
