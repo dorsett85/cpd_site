@@ -71,7 +71,7 @@
 <div id="webDevDiv" class="text-white">
 
     <div class="pt-5 text-center sectionHead" data-aos="zoom-in-down">
-        <span>Web Application</span>
+        <span>Web Development</span>
     </div>
 
     <div class="mx-auto w-50 p-3 text-center" data-aos="zoom-in">
