@@ -139,10 +139,10 @@
     </div>
 
     <div class="d-flex justify-content-center p-3 pb-5">
-        <video class="dataVid mr-3" width="500" autoplay loop data-aos="zoom-in-right">
+        <video class="dataVid mr-3" height="300" autoplay loop data-aos="zoom-in-right">
             <source src="img/rstudio.mp4" type="video/mp4">
         </video>
-        <video class="dataVid ml-3" width="500" autoplay loop data-aos="zoom-in-left">
+        <video class="dataVid ml-3" height="300" autoplay loop data-aos="zoom-in-left">
             <source src="img/quickmodel-vid.mp4" type="video/mp4">
         </video>
     </div>
