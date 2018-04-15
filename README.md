@@ -1,3 +1,3 @@
 # New site
 
-[test.cphillipsdorsett.com](http://test.cphillipsdorsett.com)
+[www.cphillipsdorsett.com](http://www.cphillipsdorsett.com)
