@@ -26,6 +26,7 @@ function intDataToArray($code) {
 // Tickers to get
 $tickers = ['ASMB', 'TSRO', 'BPMC'];
 
+// Return data as Json for highchart
 $series = [];
 foreach ($tickers as $idx => $ticker) {
     $intData = intDataToArray($ticker);

@@ -51,29 +51,29 @@ $(document).ready(function() {
     }(Highcharts));
 
     // Ajax request to get Intrinio chart data
-    $.getJSON({
-        url: 'ChartController.php',
-        success: function(data) {
-            console.log(data);
-
-            // Create highchart
-            Highcharts.stockChart('stockChart', {
-                title: {
-                    text: 'Closing Prices'
-                },
-                tooltip: {
-                    xDateFormat: '%Y-%m-%d',
-                    shared: true
-                },
-
-                series: data.data
-            });
-
-        },
-        error: function(error) {
-            console.log(error)
-        }
-    });
+    // $.getJSON({
+    //     url: 'ChartController.php',
+    //     success: function(data) {
+    //         console.log(data);
+    //
+    //         // Create highchart
+    //         Highcharts.stockChart('stockChart', {
+    //             title: {
+    //                 text: 'Closing Prices'
+    //             },
+    //             tooltip: {
+    //                 xDateFormat: '%Y-%m-%d',
+    //                 shared: true
+    //             },
+    //
+    //             series: data.data
+    //         });
+    //
+    //     },
+    //     error: function(error) {
+    //         console.log(error)
+    //     }
+    // });
 
     // Show webDevAnchor blue color on hover
     $('.webDevAnchor').mouseover(function () {
