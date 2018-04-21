@@ -61,6 +61,9 @@ $(document).ready(function() {
                 title: {
                     text: 'Closing Prices'
                 },
+                subtitle: {
+                    text: 'ASMB, BPMC, TSRO'
+                },
                 tooltip: {
                     xDateFormat: '%Y-%m-%d',
                     shared: true
@@ -73,6 +76,78 @@ $(document).ready(function() {
         error: function(error) {
             console.log(error)
         }
+    });
+
+    // Wind rose Highchart
+    Highcharts.chart('windRoseChart', {
+        chart: {
+            type: 'column',
+            polar: true
+        },
+        title: {
+            text: 'Wind Frequency Rose'
+        },
+        subtitle: {
+            text: 'Percentages at Select Tower Heights'
+        },
+        pane: {
+            size: '90%',
+            startAngle: -15
+        },
+        xAxis: {
+            categories: [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330]
+        },
+        yAxis: {
+            // min: 0,
+            tickInterval: 5,
+            angle: 300,
+            endOnTick: false,
+            showLastLabel: true,
+            title: {
+                text: 'Frequency (%)',
+                x: -80,
+                y: 25,
+                rotation: 0
+            },
+            labels: {
+                formatter: function () {
+                    return this.value + '%';
+                }
+            }
+        },
+        tooltip: {
+            valueSuffix: '%',
+            shared: true
+        },
+        plotOptions: {
+            column: {
+                groupPadding: 0
+            }
+        },
+        legend: {
+            title: {
+                text: 'Height'
+            },
+            align: 'right',
+            verticalAlign: 'top',
+            margin: 0,
+            // x: -25,
+            y: 100,
+            layout: 'vertical'
+        },
+        series: [{
+            name: '60.0m',
+            data: [9.9, 7, 4.7, 4.4, 6.1, 18.8, 18.4, 12.5, 5.3, 2.9, 3.7, 6.2],
+            color: '#7798BF'
+        }, {
+            name: '45.0m',
+            data: [9.7, 6.2, 4.2, 4.2, 6.6, 22.6, 19, 10.7, 4, 2.6, 3.4, 6.7],
+            color: '#aaeeee'
+        }, {
+            name: '30.0m',
+            data: [9.6, 6.6, 4.1, 4, 7.2, 22.1, 18.2, 11.9, 4.3, 2.7, 3.2, 6.2],
+            color: '#ff0066'
+        }]
     });
 
     // Show webDevAnchor blue color on hover

@@ -24,7 +24,7 @@
 
 <div id="visDiv">
 
-    <div class="pt-5 text-center sectionHead" data-aos="zoom-in-down">
+    <div class="text-center sectionHead" data-aos="zoom-in-down">
         <span>Visualization</span>
     </div>
 
@@ -32,9 +32,12 @@
         Extensive application providing insight to stakeholders through technical visualizations
     </div>
 
-    <div id="stockChart" class="mx-auto w-75 p-4"></div>
+    <div class="d-flex justify-content-center mt-5 mb-5">
+        <div id="stockChart" class="pr-5"></div>
+        <div id="windRoseChart"></div>
+    </div>
 
-    <div class="d-flex justify-content-center pb-4">
+    <div class="d-flex justify-content-center pb-5">
         <div class="w-25" data-aos="fade-down-right">
             <div class="p-3">Visualization output/reporting</div>
             <ul class="fa-ul pl-4">
@@ -45,7 +48,7 @@
                     <span class="fa-li"><i class="fas fa-cube"></i></span>R Markdown, ReportLab (Python)
                 </li>
                 <li class="p-1">
-                    <span class="fa-li"><i class="fas fa-cube"></i></span>PDF, image type, MS Word, R Shiny
+                    <span class="fa-li"><i class="fas fa-cube"></i></span>PDF, image types, MS Word, R Shiny
                 </li>
             </ul>
         </div>
@@ -61,8 +64,8 @@
     </div>
 
     <div class="d-flex justify-content-center pb-5">
-        <img src="img/approval-plot.png" class="visImg mr-5" data-aos="fade-up-right" alt="approval-plot">
-        <img src="img/submission-plot.png" class="visImg" data-aos="fade-up-left" alt="submission-plot">
+        <img src="img/approval-plot.png" class="visImg mr-5 mb-5" data-aos="fade-up-right" alt="approval-plot">
+        <img src="img/submission-plot.png" class="visImg mb-5" data-aos="fade-up-left" alt="submission-plot">
     </div>
 
 </div>
@@ -70,7 +73,7 @@
 
 <div id="webDevDiv" class="text-white">
 
-    <div class="pt-5 text-center sectionHead" data-aos="zoom-in-down">
+    <div class="text-center sectionHead" data-aos="zoom-in-down">
         <span>Web Development</span>
     </div>
 
@@ -78,7 +81,7 @@
         Empower users to explore and model data with clean and simple UI/UX
     </div>
 
-    <div class="d-flex justify-content-center pb-4">
+    <div class="d-flex justify-content-center mt-4 mb-5">
         <div class="p-3" data-aos="flip-left" data-aos-duration="500">
             <a class="webDevAnchor text-center" href="http://stocktracker.cphillipsdorsett.com" target="_blank">
                 <span class="d-block pb-2 contentText">Stock Tracker</span>
@@ -100,7 +103,7 @@
     </div>
 
     <div class="mx-auto w-50 p-3 pb-5" data-aos="zoom-out-down">
-        <ul class="fa-ul">
+        <ul class="fa-ul mb-5">
             <li class="d-flex justify-content-between align-items-center">
                 <div>
                     <span class="fa-li"><i class="fas fa-wrench"></i></span>Built with Laravel and Django
@@ -130,7 +133,7 @@
 
 <div id="dataDiv">
 
-    <div class="pt-5 text-center sectionHead" data-aos="zoom-in-down">
+    <div class="text-center sectionHead" data-aos="zoom-in-down">
         <span>Data Programming</span>
     </div>
 
@@ -138,7 +141,7 @@
         Expertise in automated processing, data manipulation, analysis and reporting
     </div>
 
-    <div class="d-flex justify-content-center p-3 pb-5">
+    <div class="d-flex justify-content-center p-3 mt-5 mb-5">
         <video class="dataVid mr-3" height="300" playsinline muted autoplay loop data-aos="zoom-in-right">
             <source src="img/rstudio.mp4" type="video/mp4">
         </video>
@@ -148,9 +151,9 @@
     </div>
 
     <div class="mx-auto w-50 p-3 pb-5" data-aos="zoom-out-down">
-        <ul class="fa-ul">
+        <ul class="fa-ul mb-5">
             <li class="d-flex justify-content-between align-items-center pb-1">
-                <div>
+                <div class="pr-5">
                     <span class="fa-li"><i class="fas fa-check-square"></i></span>
                     Leverage your organization's time with optimized custom scripts
                 </div>
@@ -159,7 +162,7 @@
                 </div>
             </li>
             <li class="d-flex justify-content-between align-items-center">
-                <div>
+                <div class="pr-5">
                     <span class="fa-li"><i class="fas fa-check-square"></i></span>
                     Fetch, clean, analyze, and report your data with the click of a button
                 </div>

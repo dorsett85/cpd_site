@@ -7,6 +7,7 @@ Import fonts
 body {
     min-width: 1300px;
     font-family: 'Patua One';
+    font-size: 20px;
 }
 
 #headerDiv {
@@ -46,10 +47,19 @@ body {
     font-family: 'Quintessential';
     font-size: 50px;
     font-weight: bold;
+    padding-top: 75px;
 }
 
 #stockChart {
     height: 400px;
+    min-width: 650px;
+    max-width: 650px;
+}
+
+#windRoseChart {
+    height: 400px;
+    min-width: 475px;
+    max-width: 475px;
 }
 
 .visImg, .dataVid {
