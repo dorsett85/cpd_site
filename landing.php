@@ -78,7 +78,7 @@
     </div>
 
     <div class="p-3 text-center" data-aos="zoom-in">
-        Empower users to explore and model data with clean and simple UI/UX
+        Empower users to explore and model data with a clean and simple UI/UX
     </div>
 
     <div class="d-flex justify-content-center mt-4 mb-5">
