@@ -40,7 +40,7 @@
 
 <!-- Highcharts js -->
 <script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="http://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
 <script src="js/sand-signika.js"></script>
 
 <!-- Bootstrap js -->
