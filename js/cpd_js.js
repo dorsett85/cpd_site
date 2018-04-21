@@ -131,7 +131,6 @@ $(document).ready(function() {
             align: 'right',
             verticalAlign: 'top',
             margin: 0,
-            // x: -25,
             y: 100,
             layout: 'vertical'
         },

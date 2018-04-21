@@ -77,7 +77,7 @@
         <span>Web Development</span>
     </div>
 
-    <div class="mx-auto w-50 p-3 text-center" data-aos="zoom-in">
+    <div class="p-3 text-center" data-aos="zoom-in">
         Empower users to explore and model data with clean and simple UI/UX
     </div>
 
@@ -137,7 +137,7 @@
         <span>Data Programming</span>
     </div>
 
-    <div class="mx-auto w-50 p-3 text-center" data-aos="zoom-in">
+    <div class="p-3 text-center" data-aos="zoom-in">
         Expertise in automated processing, data manipulation, analysis and reporting
     </div>
 
