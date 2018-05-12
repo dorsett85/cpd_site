@@ -8,6 +8,17 @@ AOS.init();
  */
 $(document).ready(function() {
 
+    // Fade in header text
+    setTimeout(function() {
+        $('#visScroll').addClass('headerTxtFadeIn').removeClass('headerTxtHidden');
+    }, 700);
+    setTimeout(function() {
+        $('#webDevScroll').addClass('headerTxtFadeIn').removeClass('headerTxtHidden');
+    }, 1200);
+    setTimeout(function() {
+        $('#dataScroll').addClass('headerTxtFadeIn').removeClass('headerTxtHidden');
+    }, 1700);
+
     // Scroll down from top function
     function scroll(start, ...heights) {
         let scrollDown = 0;

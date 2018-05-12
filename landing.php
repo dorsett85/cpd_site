@@ -6,11 +6,11 @@
             <span>Clayton Phillips-Dorsett</span>
         </div>
         <div id="headerText" class="d-block text-center">
-            <span id="visScroll" class="d-block p-1 headTxtHvr"><i
+            <span id="visScroll" class="d-block p-1 headTxtHvr headerTxtHidden"><i
                         class="fas fa-chart-bar"></i> Visualization</span>
-            <span id="webDevScroll" class="d-block p-1 headTxtHvr"><i
+            <span id="webDevScroll" class="d-block p-1 headTxtHvr headerTxtHidden"><i
                         class="fab fa-connectdevelop"></i> Web Development</span>
-            <span id="dataScroll" class="d-block p-1 headTxtHvr"><i
+            <span id="dataScroll" class="d-block p-1 headTxtHvr headerTxtHidden"><i
                         class="far fa-file-code"></i> Data Programming</span>
         </div>
     </div>

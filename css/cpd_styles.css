@@ -22,27 +22,23 @@ body {
     font-size: 60px;
     font-family: 'Quintessential';
     color: white;
-    -webkit-animation: zoomInDown 1s;
-    -o-animation: zoomInDown 1s;
-    animation: zoomInDown 1s;
+    -webkit-animation: zoomInDown 1.5s;
+    -o-animation: zoomInDown 1.5s;
+    animation: zoomInDown 1.5s;
 }
 
-#visScroll {
-    -webkit-animation: bounceInLeft 2s;
-    -o-animation: bounceInLeft 2s;
-    animation: bounceInLeft 2s;
+.headerTxtHidden {
+    visibility: hidden;
 }
 
-#webDevScroll {
-    -webkit-animation: bounceInRight 2s;
-    -o-animation: bounceInRight 2s;
-    animation: bounceInRight 2s;
+.fadeInLeft {
+    visibility: visible;
 }
 
-#dataScroll {
-    -webkit-animation: bounceInUp 2s;
-    -o-animation: bounceInUp 2s;
-    animation: bounceInUp 2s;
+.headerTxtFadeIn {
+    -webkit-animation: fadeInLeft 2s;
+    -o-animation: fadeInLeft 2s;
+    animation: fadeInLeft 2s;
 }
 
 #headerText {
