@@ -8,20 +8,6 @@ AOS.init();
  */
 $(document).ready(function() {
 
-    // Fade in header spans
-    $("#headerCpd").addClass('animated zoomInDown').removeClass('.headerTxtHidden');
-    setTimeout(function() {
-        $("#visScroll").addClass('animated bounceInLeft').removeClass('.headerTxtHidden');
-    }, 800);
-    setTimeout(function() {
-        $("#webDevScroll").addClass('animated bounceInRight').removeClass('.headerTxtHidden');
-    }, 1200);
-    setTimeout(function() {
-        $("#dataScroll").addClass('animated bounceInUp').removeClass('.headerTxtHidden');
-    }, 1400);
-
-
-
     // Scroll down from top function
     function scroll(start, ...heights) {
         let scrollDown = 0;

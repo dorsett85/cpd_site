@@ -18,18 +18,31 @@ body {
     background-repeat: no-repeat;
 }
 
-.headerTxtHidden {
-    visibility: hidden;
-}
-
-.zoomInDown, .bounceInLeft, .bounceInRight, .bounceInUp {
-    visibility: visible;
-}
-
 #headerCpd {
     font-size: 60px;
     font-family: 'Quintessential';
-    color: white
+    color: white;
+    -webkit-animation: zoomInDown 1s;
+    -o-animation: zoomInDown 1s;
+    animation: zoomInDown 1s;
+}
+
+#visScroll {
+    -webkit-animation: bounceInLeft 2s;
+    -o-animation: bounceInLeft 2s;
+    animation: bounceInLeft 2s;
+}
+
+#webDevScroll {
+    -webkit-animation: bounceInRight 2s;
+    -o-animation: bounceInRight 2s;
+    animation: bounceInRight 2s;
+}
+
+#dataScroll {
+    -webkit-animation: bounceInUp 2s;
+    -o-animation: bounceInUp 2s;
+    animation: bounceInUp 2s;
 }
 
 #headerText {
