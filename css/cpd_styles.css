@@ -18,10 +18,18 @@ body {
     background-repeat: no-repeat;
 }
 
+.headerTxtHidden {
+    visibility: hidden;
+}
+
+.zoomInDown, .bounceInLeft, .bounceInRight, .bounceInUp {
+    visibility: visible;
+}
+
 #headerCpd {
     font-size: 60px;
     font-family: 'Quintessential';
-    color: white;
+    color: white
 }
 
 #headerText {

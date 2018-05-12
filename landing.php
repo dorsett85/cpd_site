@@ -2,21 +2,16 @@
 
 <header id="headerDiv" class="d-flex justify-content-center align-items-center">
     <div>
-        <div id="headerCpd" class="d-block p-3 font-weight-bold" data-aos="fade-down" data-aos-duration="1200">
+        <div id="headerCpd" class="d-block p-3 font-weight-bold headerTxtHidden">
             <span>Clayton Phillips-Dorsett</span>
         </div>
         <div id="headerText" class="d-block text-center">
-            <div data-aos="zoom-out-right" data-aos-delay="1000" data-aos-duration="1500">
-                <span id="visScroll" class="d-block p-1 headTxtHvr"><i
-                            class="fas fa-chart-bar"></i> Visualization</span>
-            </div>
-            <div data-aos="zoom-out-left" data-aos-delay="1200" data-aos-duration="1500">
-                <span id="webDevScroll" class="d-block p-1 headTxtHvr"><i class="fab fa-connectdevelop"></i> Web Development</span>
-            </div>
-            <div data-aos="zoom-out-right" data-aos-delay="1400" data-aos-duration="1500">
-                <span id="dataScroll" class="d-block p-1 headTxtHvr"><i
-                            class="far fa-file-code"></i> Data Programming</span>
-            </div>
+            <span id="visScroll" class="d-block p-1 headTxtHvr headerTxtHidden"><i
+                        class="fas fa-chart-bar"></i> Visualization</span>
+            <span id="webDevScroll" class="d-block p-1 headTxtHvr headerTxtHidden"><i
+                        class="fab fa-connectdevelop"></i> Web Development</span>
+            <span id="dataScroll" class="d-block p-1 headTxtHvr headerTxtHidden"><i
+                        class="far fa-file-code"></i> Data Programming</span>
         </div>
     </div>
 </header>
@@ -185,7 +180,8 @@
         <div class="d-flex justify-content-between align-items-center pt-3">
             <div class="pl-5">claytonphillipsdorsett@gmail.com</div>
             <div class="pr-5">
-                <a id="gitAnchor" href="http://www.github.com/dorsett85" target="_blank"><i class="fab fa-github"></i></a>
+                <a id="gitAnchor" href="http://www.github.com/dorsett85" target="_blank"><i
+                            class="fab fa-github"></i></a>
             </div>
         </div>
         <div class="pl-5">Cambridge, MA</div>
